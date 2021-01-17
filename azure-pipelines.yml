@@ -21,5 +21,5 @@ steps:
   displayName: 'npm install and build'
 
 - script: |
-    echo 'This is my line'
-  displayName: 'Test echo line'
+    npm install -g @zowe/cli@zowe-v1-lts
+  displayName: 'Install @zowe/cli'
